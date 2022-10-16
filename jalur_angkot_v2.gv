@@ -102,9 +102,7 @@ digraph G{
 
     I1 [ label="ITB (Jl. Ganesha, Dago)"]
     I2 [ label="Jl. Ir H Juanda"]
-    I3 [ label="Jl. Ir H Juanda (Dago)"]
-    I4 [ label="Jl. Ir H Juanda (Dago)"]
-    I5 [ label="Istana Plaza (Pasir Kaliki)"]
+    I3 [ label="Istana Plaza (Pasir Kaliki)"]
 
     J1 [ label="Jl. Jakarta"]
     J2 [ label="Jl. Jamika"]
@@ -214,7 +212,7 @@ digraph G{
     S36 [ label="Sarijadi"]
     S37 [ label="Simpang Dago"]
     S38 [ label="Sindanglaya"]
-    S39 [ label="Sirnpang Dago"]
+    S39 [ label="Simpang Dago"]
     S40 [ label="Stasiun Bandung (Barat)"]
     S41 [ label="Stasiun Bandung (Kebon Kawung)"]
 
@@ -235,11 +233,8 @@ digraph G{
 
     W1 [ label="Jl. Waringrn"]
     W2 [ label="Jl. Wastu Kencana"]
-    W3 [ label="Jl. Wastu Kencana"]
-    W4 [ label="Jl. Westhoff"]
-    W5 [ label="Jl. WR Supratman"]
-    W6 [ label="Jl. WR, Suoratman"]
-    W7 [ label="Jl. WR. Supratman"]
+    W3 [ label="Jl. Westhoff"]
+    W4 [ label="Jl. WR Supratman"]
 
     edge [ color=yellow] // Rute 1: Abdul Muis (Kebon Kelapa) - Cicaheum via Binong
     Ter8 -> P11 -> K2 -> B19 -> B13 -> S2 -> L5 -> M3 -> T6 -> G3 -> B5 -> B2 -> K10 -> J1 -> W5 -> K4 -> P1 -> C11 -> P10 -> Ter2
