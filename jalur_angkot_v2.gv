@@ -272,6 +272,11 @@ digraph G{
     edge [ color=black] // Rute 12:  Ciroyom - Bumi Asri
     Ter3 -> C20 -> G2 -> S19 -> S24 -> H3 -> B17 -> C9 -> B7
 
+    edge [ color=black] // Rute 13:  Dago - Pasar lnduk Caringin
+    Ter5 -> C7 -> C12 -> P1 -> S33 -> C10 -> T3 -> S9 -> R5 -> U1 -> T3 -> W2 -> P12
+    P12 -> P2 -> C5 -> R10 -> P5 -> P2 -> A9 -> S32 -> C20 -> R2 -> K6 -> W1 -> S19
+    S19 -> J2 -> T5 -> S23 -> S24 -> B8 -> P14
+
     edge [ color=skyblue] // Rute 17: Sadang Serang - Caringin
     Ter14 -> C2 -> H3 -> B17 -> C9 -> S19 -> R1 -> G2 -> A4 -> P2 -> P4 
     P4 -> R3 -> R10 -> W2 -> T3 -> G1 -> I2 -> T4 -> S1 -> Ter1
