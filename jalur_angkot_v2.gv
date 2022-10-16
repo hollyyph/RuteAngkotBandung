@@ -4,22 +4,39 @@ digraph G{
 
     node [ style=filled, shape=rectangle, align=center]
 
-    Ter1 [ label='Terminal Caringin ']
-    Ter2 [ label='Terminal Cicaheum ']
-    Ter3 [ label='Terminal Ciroyom ']
-    Ter4 [ label='Terminal Ciumbuleuit ']
-    Ter5 [ label='Terminal Dago ']
-    Ter6 [ label='Terminal Dipati Ukur ']
-    Ter7 [ label='Terminal Gunung Batu ']
-    Ter8 [ label='Terminal Kebon Kalapa ']
-    Ter9 [ label='Terminal Ledeng ']
-    Ter10 [ label='Terminal Leuwi Panjang (Sukarno - Hatta)']
-    Ter11 [ label='Terminal Margahayu ']
-    Ter12 [ label='Terminal Panghegar ']
-    Ter13 [ label='Terminal Riung Bandung ']
-    Ter14 [ label='Terminal Sadang Serang ']
-    Ter15 [ label='Terminal Sarijadi']
-    Ter16 [ label='Terminal Stasiun ']
+    Ter1 [ label="Terminal 
+Kebon Kalapa"]
+    Ter2 [ label="Terminal 
+Cicaheum"]
+    Ter3 [ label="Terminal 
+Dago"]
+    Ter4 [ label="Terminal 
+Ledeng"]
+    Ter5 [ label="Terminal 
+Ciroyom"]
+    Ter6 [ label="Terminal 
+Leuwi Panjang 
+(Sukarno-Hatta)"]
+    Ter7 [ label="Terminal 
+Riung Bandung"]
+    Ter8 [ label="Terminal 
+Margahayu"]
+    Ter9 [ label="Terminal 
+Panghegar"]
+    Ter10 [ label="Terminal 
+Dipati Ukur"]
+    Ter11 [ label="Terminal 
+Sadang Serang"]
+    Ter12 [ label="Terminal 
+Caringin"]
+    Ter13 [ label="Terminal 
+Stasiun"]
+    Ter14 [ label="Terminal 
+Cimbuleuit"]
+    Ter15 [ label="Terminal 
+Gunung Batu"]
+    Ter16 [ label="Terminal 
+Sarijadi"]
 
     A1 [ label="Alun - Alun (Asia Afrika)"]
     A2 [ label="Antapani"]
