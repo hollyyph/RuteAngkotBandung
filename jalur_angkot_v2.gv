@@ -254,36 +254,36 @@ digraph G{
     edge [ color=orange] // Rute 6: Cicaheum - Ciroyom
     Ter2 -> P10 -> S33 -> L7 -> P3 -> D4 -> S37 -> S29 -> S15 -> C8 -> E1 -> R15 -> P5 -> P2 -> A4 -> G2 -> C20 -> Ter3
 
-    edge [ color=black] // Rute 7: Cicaheum - Leuwipanjang
+    edge [ color=cadetblue4] // Rute 7: Cicaheum - Leuwipanjang
     Ter2 -> P10 -> K4 -> W4 -> D6 -> S25 -> T3 -> S15 -> C8 -> L1 -> C16 -> S14 -> K1 -> S21 -> S14 -> Ter9
 
     edge [ color=black] // Rute 8: Cicaheum - Ledeng
     Ter10 -> S24 -> K10 -> J1 -> A2 -> Ter2
 
-    edge [ color=black] // Rute 9: Ciroyom - Bumi Asri
+    edge [ color=chartreuse] // Rute 9: Ciroyom - Bumi Asri
     Ter3 -> C20 -> G2 -> S19 -> S24 -> H3 -> B17 -> C9 -> B7
 
-    edge [ color=black] // Rute 10: Ciroyom - Sarijadi via Sederhana
+    edge [ color=coral3] // Rute 10: Ciroyom - Sarijadi via Sederhana
     Ter15 -> S7 -> S5 -> S3 -> S4 -> G4 -> C18 -> S16 -> S17 -> S21 -> S22 -> S10 -> R15 -> P5 -> P2 -> A4 -> C20 -> Ter3
 
-    edge [ color=black] // Rute 11:  Ciroyom - Sarijadi via Sukajadi
+    edge [ color=cornsilk4] // Rute 11:  Ciroyom - Sarijadi via Sukajadi
     Ter3 -> A9 -> P2 -> B9 -> D9 -> P5 -> S21 -> S16 -> G4 -> S8 -> S4 -> S5 -> S7 -> Ter15
 
-    edge [ color=black] // Rute 12:  Ciroyom - Bumi Asri
+    edge [ color=darkgoldenrod4] // Rute 12:  Ciroyom - Bumi Asri
     Ter3 -> C20 -> G2 -> S19 -> S24 -> H3 -> B17 -> C9 -> B7
 
-    edge [ color=black] // Rute 13:  Dago - Pasar lnduk Caringin
+    edge [ color=indigo] // Rute 13:  Dago - Pasar lnduk Caringin
     Ter5 -> C7 -> C12 -> P1 -> S33 -> C10 -> T3 -> S9 -> R5 -> U1 -> T3 -> W2 -> P12
     P12 -> P2 -> C5 -> R10 -> P5 -> P2 -> A9 -> S32 -> C20 -> R2 -> K6 -> W1 -> S19
     S19 -> J2 -> T5 -> S23 -> S24 -> B8 -> P14
 
-    edge [ color=black] // Rute 14:  Dago - Riung Bandung
+    edge [ color=lightpink4] // Rute 14:  Dago - Riung Bandung
     Ter5 -> I2 -> S37 -> D3 -> P3 -> S33 -> S11 -> D5 -> C23 -> R6 -> L2 -> S20 -> A7 -> K10 -> S24 -> M6 -> M8 -> C17 -> R9 -> Ter13
 
-    edge [ color=black] // Rute 15:  Margahayu Raya - Ledeng
+    edge [ color=mediumorchid] // Rute 15:  Margahayu Raya - Ledeng
     Ter11 -> R4 -> S24 -> K10 -> J1 -> W4 -> C3 -> T2 -> R6 -> M4 -> W2 -> P2 -> C5 -> R10 -> C16 -> S14 -> K1 -> S21 -> S14 -> Ter9
 
-    edge [ color=black] // Rute 16:  Panghegar Permai - Dipatiukur
+    edge [ color=mediumturquoise] // Rute 16:  Panghegar Permai - Dipatiukur
     Ter12 -> C22 -> C6 -> A6 -> S38 -> Ter2 -> A7 -> C1 -> K10 -> J1 -> S20 -> L2 -> R6 -> A8 -> M7 -> C21 -> C15 -> C14 -> C13 -> D5 -> S25 -> T3 -> G1 -> R13 -> H2 -> D3 -> Ter6
 
     edge [ color=skyblue] // Rute 17: Sadang Serang - Caringin
