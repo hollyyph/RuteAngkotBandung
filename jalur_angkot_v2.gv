@@ -254,8 +254,11 @@ digraph G{
     edge [ color=orange] // Rute 6: Cicaheum - Ciroyom
     Ter2 -> P10 -> S33 -> L7 -> P3 -> D4 -> S37 -> S29 -> S15 -> C8 -> E1 -> R15 -> P5 -> P2 -> A4 -> G2 -> C20 -> Ter3
 
-    edge [ color=black] // Rute 7: Cicaheum - Ledeng
+    edge [ color=black] // Rute 7: Cicaheum - Leuwipanjang
     Ter2 -> P10 -> K4 -> W4 -> D6 -> S25 -> T3 -> S15 -> C8 -> L1 -> C16 -> S14 -> K1 -> S21 -> S14 -> Ter9
+
+    edge [ color=black] // Rute 8: Cicaheum - Ledeng
+    Ter10 -> S24 -> K10 -> J1 -> A2 -> Ter2
 
     edge [ color=skyblue] // Rute 17: Sadang Serang - Caringin
     Ter14 -> C2 -> H3 -> B17 -> C9 -> S19 -> R1 -> G2 -> A4 -> P2 -> P4 
