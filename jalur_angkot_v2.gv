@@ -241,25 +241,26 @@ digraph G{
     W6 [ label="Jl. WR, Suoratman"]
     W7 [ label="Jl. WR. Supratman"]
 
-    edge [ color=yellow] // Abdul Muis (Kebon Kelapa) - Cicaheum via Binong
+    edge [ color=yellow] // Rute 1: Abdul Muis (Kebon Kelapa) - Cicaheum via Binong
     Ter8 -> P11 -> K2 -> B19 -> B13 -> S2 -> L5 -> M3 -> T6 -> G3 -> B5 -> B2 -> K10 -> J1 -> W5 -> K4 -> P1 -> C11 -> P10 -> Ter2
     
-    edge [ color=red] // Abdul Muis (Kebon Kelapa) - Cicaheum via Aceh
+    edge [ color=red] // Rute 2: Abdul Muis (Kebon Kelapa) - Cicaheum via Aceh
     Ter8 -> D2 -> K5 -> B10 -> P11 -> K2 -> S30 -> L6 -> A5 -> T2 -> C3 -> T7 -> K4 -> P1 -> C11 -> P10 -> Ter2
 
-    edge [ color=mediumseagreen] // Abdul Muis (Kebon Kelapa) - Dago
+    edge [ color=mediumseagreen] // Rute 3: Abdul Muis (Kebon Kelapa) - Dago
     Ter8 -> D2 -> K5 -> B10 -> P11 -> K2 -> S30 -> S28 -> B15 -> S27 -> A5 -> S26 -> S12 -> R7 -> I3 -> R14 -> I1 -> S37 -> Ter5
 
-    edge [ color=skyblue] // Abdul Muis (Kebon Kelapa) - Ledeng
+    edge [ color=skyblue] // Rute 4: Abdul Muis (Kebon Kelapa) - Ledeng
     Ter8 -> D2 -> K5 -> B10 -> P11 -> K2 -> S30 -> S28 -> L6 -> B12 -> R7 -> B3 -> M4 -> A5 -> W3 -> R10 -> C16 -> S14 -> K1 -> S21 -> S14 -> Ter9
 
-    edge [ color=gold] // Cibaduyut - Kebon Kelapa
+    edge [ color=gold] // Rute 5: Cibaduyut - Kebon Kelapa
     C4 -> B18 -> P9 -> B16 -> M5 -> P11 -> Ter8
 
-    edge [ color=gold] // Cicaheum - Ciroyom
+    edge [ color=gold] // Rute 6: Cicaheum - Ciroyom
     Ter2 -> P10 -> S33 -> L7 -> P3 -> D4 -> S37 -> S29 -> S15 -> C8 -> E1 -> R15 -> P5 -> P2 -> A4 -> G2 -> C20 -> Ter3
 
-
+    edge [ color=gold] // Rute 7: Cicaheum - Ledeng
+    Ter2 -> P10 -> K4 -> W4 -> D6 -> S25 -> T3 -> S15 -> C8 -> L1 -> C16 -> S14 -> K1 -> S21 -> S14 -> Ter9
 
 
 }
