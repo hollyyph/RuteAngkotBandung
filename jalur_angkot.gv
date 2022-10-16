@@ -36,7 +36,7 @@ Cimbuleuit"]
 Gunung Batu"]
     Ter16 [ label="Terminal 
 Sarijadi"]
-    
+
     A1 [ label="Jl. Aceh"]
 
     B1 [ label="Jl. Buah Batu"]
@@ -103,7 +103,7 @@ Sarijadi"]
     W2 [ label="Taman WR Supratman"]
     W3 [ label="Jl. Wastu Kencana"]
 
-
+    
     edge [ color=yellow] // Abdul Muis (Kebon Kelapa) - Cicaheum via Binong
     Ter1 -> P1 -> K1 -> B1 -> B2 -> S1 -> L1 -> M1 -> T1
     T1 -> G1 -> B3 -> B4 -> K2 -> J1 -> W1
