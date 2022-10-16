@@ -1,0 +1,133 @@
+digraph G{
+    
+    
+
+    node [ style=filled, shape=rectangle, align=center]
+    Ter1 [ label="Terminal 
+Kebon Kalapa"]
+    Ter2 [ label="Terminal 
+Cicaheum"]
+    Ter3 [ label="Terminal 
+Dago"]
+    Ter4 [ label="Terminal 
+Ledeng"]
+    Ter5 [ label="Terminal 
+Ciroyom"]
+    Ter6 [ label="Terminal 
+Leuwi Panjang 
+(Sukarno-Hatta)"]
+    Ter7 [ label="Terminal 
+Riung Bandung"]
+    Ter8 [ label="Terminal 
+Margahayu"]
+    Ter9 [ label="Terminal 
+Panghegar"]
+    Ter10 [ label="Terminal 
+Dipati Ukur"]
+    Ter11 [ label="Terminal 
+Sadang Serang"]
+    Ter12 [ label="Terminal 
+Caringin"]
+    Ter13 [ label="Terminal 
+Stasiun"]
+    Ter14 [ label="Terminal 
+Cimbuleuit"]
+    Ter15 [ label="Terminal 
+Gunung Batu"]
+    Ter16 [ label="Terminal 
+Sarijadi"]
+    
+    A1 [ label="Jl. Aceh"]
+
+    B1 [ label="Jl. Buah Batu"]
+    B2 [ label="Jl. Banteng"]
+    B3 [ label="BSM"]
+    B4 [ label="Binong"]
+    B5 [ label="Jl. Balong Gede"]
+    B6 [ label="Jl. Belitung"]
+    B7 [ label="RS Boromeus (Dago)"]
+    B8 [ label="Jl. Banda"]
+    B9 [ label="BIP"]
+    B10 [ label="Jl. Bojongloa"] 
+    B11 [ label="Jl. BKR"] 
+
+    C1 [ label="Jl. Cikutra"]
+    C2 [ label="Jl. Cendana"]
+    C3 [ label="Jl. Cipaganti"]
+    C4 [ label="Jl. Cibaduyut"]
+
+    D1 [ label="Jl. Dewi Sartika"]
+
+    G1 [ label="Jl. Gatot Subroto"]
+    G2 [ label="Jl. Ganesha"]
+    
+    I1 [ label="Jl. Ir H Juanda (Dago)"]
+
+    J1 [ label="Jl. Jakarta"]
+    
+    K1 [ label="Jl. Karapitan"]
+    K2 [ label="Jl. Kiara Condong"]
+    K3 [ label="Jl. Katamso"]
+    K4 [ label="Jl. Kautamaan Istri"]
+    K5 [ label="Jl. Karang Sari"]
+    
+    L1 [ label="Jl. Lodaya"]
+    L2 [ label="Jl. Lombok"]
+    
+    M1 [ label="Jl. Martanegara"]
+    M2 [ label="Jl. Merdeka"]
+    M3 [ label="Jl. Moh Toha"]
+    
+    P1 [ label="Jl. Pahlawan"]
+    P2 [ label="Jl. PHH Mustofa (Suci)"]
+    P3 [ label="Jl. Pungkur"]
+    P4 [ label="Jl. Peta"]
+
+    R1 [ label="Jl. RE Martadinata (Riau)"]
+    R2 [ label="Jl. Rivai"]
+
+    S1 [ label="Jl. Sancang"]
+    S2 [ label="Jl. Sunda"]
+    S3 [ label="Jl. Sumbawa"]
+    S4 [ label="Jl. Sumatera"]
+    S5 [ label="Jl. Sulawesi"]
+    S6 [ label="Jl. Seram"]
+    S7 [ label="Jl. Simpang Dago"]
+    S8 [ label="Jl. Setiabudi"]
+    S9 [ label="Jl. Sukaladi"]
+    
+    T1 [ label="Jl. Turangga"]
+    T2 [ label="Jl. Taman Pramuka"]
+    
+    W1 [ label="Jl. WR Supratman"]
+    W2 [ label="Taman WR Supratman"]
+    W3 [ label="Jl. Wastu Kencana"]
+
+
+    edge [ color=yellow] // Abdul Muis (Kebon Kelapa) - Cicaheum via Binong
+    Ter1 -> P1 -> K1 -> B1 -> B2 -> S1 -> L1 -> M1 -> T1
+    T1 -> G1 -> B3 -> B4 -> K2 -> J1 -> W1
+    W1 -> K3 -> P1 -> C1 -> P2 -> Ter2
+    
+    edge [ color=red] // Abdul Muis (Kebon Kelapa) - Cicaheum via Aceh
+    Ter1 -> D1 -> K4 -> B4 -> P3 -> K1 -> S2 -> L2 -> T1
+    T1 -> C2 -> W2
+    W2 -> K3 -> P1 -> C1 -> P2 -> Ter2
+
+    edge [ color=mediumseagreen] // Abdul Muis (Kebon Kelapa) - Dago
+    Ter1 -> D1 -> K4 -> B4 -> P3 -> K1 -> S2 
+    S2 -> S3 -> B6 -> S4 -> S5 -> R1 -> I1 -> B7 -> G2 -> S7 -> Ter3
+
+    edge [ color=skyblue] // Abdul Muis (Kebon Kelapa) - Ledeng
+    Ter1 -> D1 -> K4 -> B4 -> P3 -> K1 -> S2 
+    S2 -> S3 -> L2 -> B8 -> R1 -> B9 -> M2 -> A1 -> W3 -> R2 -> C3 
+
+    edge [ color=gold] // Cibaduyut - Kebon Kelapa
+    C4 -> B10 -> P4 -> B11 -> M3 -> P3 -> Ter1
+
+    edge [ color=gold] // Cicaheum - Ciroyom
+    C4 -> B10 -> P4 -> B11 -> M3 -> P3 -> Ter1
+
+
+
+}
