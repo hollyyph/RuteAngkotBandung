@@ -1,4 +1,4 @@
-digraph G{
+graph G{
     
     node [fontname="Arial"]
 
@@ -25,28 +25,52 @@ digraph G{
     U [label="Caringin"]
     
 
-    A -> B [label="Binong"]
-    A -> B [label="Aceh"]
-    A -> C
-    A -> D
-    E -> A 
-    B -> F
-    B -> G
-    B -> H
-    F -> I
-    F -> J [label="Sederhana"]
-    F -> J [label="Sukajadi"]
-    C -> K
-    C -> L
-    M -> D
-    N -> O
-    P -> U
-    Q -> C
-    Q -> P
-    Q -> R [label="Eyckman"]
-    Q -> R [label="Cihampelas"]
-    Q -> S
-    Q -> T 
-    Q -> J   
+    // A -> B [label="Binong"]
+    // A -> B [label="Aceh"]
+    // A -> C
+    // A -> D
+    // E -> A 
+    // B -> F
+    // B -> G
+    // B -> H
+    // F -> I
+    // F -> J [label="Sederhana"]
+    // F -> J [label="Sukajadi"]
+    // C -> K
+    // C -> L
+    // M -> D
+    // N -> O
+    // P -> U
+    // Q -> C
+    // Q -> P
+    // Q -> R [label="Eyckman"]
+    // Q -> R [label="Cihampelas"]
+    // Q -> S
+    // Q -> T 
+    // Q -> J   
+
+    A -- B [label="Binong"]
+    A -- B [label="Aceh"]
+    A -- C
+    A -- D
+    E -- A 
+    B -- F
+    B -- G
+    B -- H
+    F -- I
+    F -- J [label="Sederhana"]
+    F -- J [label="Sukajadi"]
+    C -- K
+    C -- L
+    M -- D
+    N -- O
+    P -- U
+    Q -- C
+    Q -- P
+    Q -- R [label="Eyckman"]
+    Q -- R [label="Cihampelas"]
+    Q -- S
+    Q -- T 
+    Q -- J  
 
 }

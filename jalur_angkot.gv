@@ -127,7 +127,7 @@ Sarijadi"]
 
     edge [ color=gold] // Cicaheum - Ciroyom
     C4 -> B10 -> P4 -> B11 -> M3 -> P3 -> Ter1
-
+    
 
 
 }
